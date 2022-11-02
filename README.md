@@ -9,7 +9,7 @@ Projeto desenvolvido durante o Explorer Lab da Rocketseat. <br>
 As tecnologias utilizadas neste projeto são:
 - HTML
 - CSS
-- Node
+- Node.JS
 - NPM
 - Vite
 - iMask
