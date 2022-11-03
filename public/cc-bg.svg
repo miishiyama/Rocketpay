@@ -16,7 +16,14 @@
             <stop stop-color="white" stop-opacity="0.4"/>
             <stop offset="1" stop-color="white" stop-opacity="0"/>
         </linearGradient>
-        <radialGradient id="paint1_radial_48_3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(2 1.31352) rotate(32.5741) scale(427.2 269.348)">
+        <radialGradient 
+            id="paint1_radial_48_3" 
+            cx="0" 
+            cy="0" 
+            r="1" 
+            gradientUnits="userSpaceOnUse" 
+            gradientTransform="translate(2 1.31352) rotate(32.5741) scale(427.2 269.348)"
+        >
             <stop stop-color="white" stop-opacity="0.7"/>
             <stop offset="0.677083" stop-color="#B691FF" stop-opacity="0.4"/>
             <stop offset="1" stop-color="white" stop-opacity="0"/>
