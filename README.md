@@ -13,6 +13,7 @@ As tecnologias utilizadas neste projeto são:
 - NPM
 - Vite
 - iMask
+- JavaScript
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
