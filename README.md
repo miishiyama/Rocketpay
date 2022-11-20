@@ -14,6 +14,7 @@ As tecnologias utilizadas neste projeto são:
 - Vite
 - iMask
 - JavaScript
+- DOM
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
