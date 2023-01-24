@@ -10,15 +10,16 @@ Siga esses passos para instalar o repositório na sua máquina:
 1. Rode `git clone https://github.com/miishiyama/Rocketpay` para fazer um clone desse repositório.
 2. Rode `npm i` para instalar as dependências do projeto.
 3. Rode `npm run dev` para iniciar o servidor de desenvolvimento.
+4. Entre no link que aparecer no terminal.
 
 ## Tecnologias 🚀
 As tecnologias utilizadas neste projeto são:
 - HTML
 - CSS
-- Node.js
+- Node
 - NPM
 - Vite
-- iMask
+- IMask
 - JavaScript
 - DOM
 
