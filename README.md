@@ -22,6 +22,7 @@ As tecnologias utilizadas neste projeto são:
 - IMask
 - JavaScript
 - DOM
+- Media Query
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
