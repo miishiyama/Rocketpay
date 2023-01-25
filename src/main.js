@@ -12,7 +12,6 @@ function setCardType(type) {
     rocketseat: ["#0D6F5D", "#C3129C"],
     default: ["black", "gray"],
   }
-
   ccBgColor01.setAttribute("fill", colors[type][0])
   ccBgColor02.setAttribute("fill", colors[type][1])
   ccLogo.setAttribute("src", `cc-${type}.svg`)
@@ -67,7 +66,6 @@ const cardNumberPattern = {
     const foundMask = dynamicMasked.compiledMasks.find(function (item) {
       return number.match(item.regex)
     })
-
     return foundMask
   },
 }
@@ -85,7 +83,6 @@ document.querySelector("form").addEventListener("submit", (event) => {
 const cardHolder = document.querySelector("#card-holder")
 cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
-
   ccHolder.innerText = cardHolder.value.length === 0 ? "FULANO DA SILVA" : cardHolder.value
 })
 
@@ -95,7 +92,6 @@ securityCodeMasked.on("accept", () => {
 
 function updateSecurityCode(code){
   const ccSecutiry = document.querySelector(".cc-security .value")
-  
   ccSecutiry.innerText = code.length === 0 ? "123" : code
 }
 
@@ -107,7 +103,6 @@ cardNumberMasked.on("accept", () => {
 
 function updateCardNumber(number){
   const ccNumber = document.querySelector(".cc-number")
-  
   ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
 }
 
