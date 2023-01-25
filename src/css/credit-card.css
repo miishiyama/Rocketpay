@@ -4,7 +4,6 @@
   width: 36rem;
   height: 23rem;
   padding: 2rem;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -26,7 +25,6 @@
   font-weight: bold;
   line-height: 2.9rem;
   letter-spacing: 0.04em;
-
   color: #e8e8e8;
   text-shadow: 0 0.12rem 0.32rem rgb(23 23 23 / 40%);
 }
