@@ -30,11 +30,11 @@ form input {
 }
 
 form .flex {
-  gap: 1.4rem;
+  gap: 1.4rem
 }
 
 form .flex .input-wrapper {
-  flex: 1;
+  flex: 1
 }
 
 form button {
@@ -55,5 +55,5 @@ form button {
 }
 
 form button:hover {
-  filter: brightness(1.1);
+  filter: brightness(1.1)
 }

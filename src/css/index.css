@@ -6,10 +6,10 @@
 
 @media (max-width: 420px) {
   :root {
-    font-size: 50%;
+    font-size: 50%
   }
   body {
-    background: #202024;
+    background: #202024
   }
   #app {
     background: none;
@@ -26,20 +26,19 @@
     grid-template-areas:
       "A B"
       "C B";
-
     width: fit-content;
     max-width: fit-content;
     padding-inline: 4.8rem;
     grid-template-columns: 0.8fr 1fr;
   }
   #app header {
-    grid-area: A;
+    grid-area: A
   }
   #app section.cc {
     grid-area: B;
     align-self: center;
   }
   #app form {
-    grid-area: C;
+    grid-area: C
   }
 }

@@ -75,7 +75,7 @@ const cardNumberPattern = {
       return number.match(item.regex)
     })
     return foundMask
-  }
+  },
 }
 
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern)
