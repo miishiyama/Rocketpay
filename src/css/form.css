@@ -1,12 +1,12 @@
 form {
   max-width: 36rem;
   display: grid;
-  gap: 1.6rem;
+  gap: 1.6rem
 }
 
 form .input-wrapper {
   display: grid;
-  gap: 0.6rem;
+  gap: 0.6rem
 }
 
 form label {
@@ -15,7 +15,7 @@ form label {
   line-height: 1.5rem;
   letter-spacing: 0.01px;
   text-transform: uppercase;
-  color: #e1e1e6;
+  color: #E1E1E6
 }
 
 form input {
@@ -26,7 +26,7 @@ form input {
   padding-inline: 1.2rem;
   width: 100%;
   color: white;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 form .flex {
@@ -43,7 +43,7 @@ form button {
   justify-content: center;
   align-items: center;
   padding: 1.6rem 0;
-  background: #42d3ff;
+  background: #42D3FF;
   border-radius: 0.6rem;
   cursor: pointer;
   border: none;
@@ -51,7 +51,7 @@ form button {
   font-size: 1.4rem;
   line-height: 1.7rem;
   color: #121212;
-  transition: filter 0.3s;
+  transition: filter 0.3s
 }
 
 form button:hover {

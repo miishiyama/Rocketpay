@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box
 }
 
 :root {
@@ -12,7 +12,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
 }
 
 body {
@@ -20,7 +20,7 @@ body {
   background: #121214;
   display: flex;
   place-items: center;
-  min-height: 100vh;
+  min-height: 100vh
 }
 
 .flex {
@@ -37,10 +37,10 @@ body {
   padding: 2.8rem 6rem 4rem;
   background: #202024;
   border: 0.1rem solid #323238;
-  border-radius: 0.6rem;
+  border-radius: 0.6rem
 }
 
 #app header {
   display: flex;
-  align-items: center;
+  align-items: center
 }
