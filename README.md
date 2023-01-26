@@ -23,6 +23,7 @@ As tecnologias utilizadas neste projeto são:
 - JavaScript
 - DOM
 - Media Queries
+- Google Fonts
 
 ## Créditos ❤️
 Feito por [Millene Eduarda Ishiyama](https://github.com/miishiyama/).
