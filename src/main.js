@@ -33,7 +33,7 @@ const securityCodeMasked = IMask(securityCode, securityCodePattern)
 const expirationDate = document.querySelector("#expiration-date")
 
 const expirationDatePattern = {
-  mask: "MM{ / }YY",
+  mask: "MM{/}YY",
   blocks: {
     YY: {
       mask: IMask.MaskedRange,
