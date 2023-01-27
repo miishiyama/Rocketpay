@@ -2,8 +2,11 @@
 ![preview](./preview/Rocketpay.png)
 
 ## Projeto 💻
-Projeto desenvolvido durante o Explorer Lab da Rocketseat. <br>
-(https://www.figma.com/file/LEz0vMI0czjTAaT7gYwpk7/Explorer-Lab-%2301-(Copy))
+Projeto desenvolvido durante o Explorer Lab da Rocketseat.
+
+## Layout 🔖
+Segue abaixo o layout deste projeto:
+- [Figma](https://www.figma.com/file/LEz0vMI0czjTAaT7gYwpk7/Explorer-Lab-%2301-(Copy))
 
 ## Instalação 🛠
 Siga esses passos para instalar o repositório na sua máquina:
