@@ -17,7 +17,7 @@ function setCardType(type) {
   }
   ccBgColor01.setAttribute("fill", colors[type][0])
   ccBgColor02.setAttribute("fill", colors[type][1])
-  ccLogo.setAttribute("src", `cc-${type}.svg`)
+  ccLogo.setAttribute("src", `cc-${ type }.svg`)
 }
 
 globalThis.setCardType = setCardType
@@ -33,7 +33,7 @@ const securityCodeMasked = IMask(securityCode, securityCodePattern)
 const expirationDate = document.querySelector("#expiration-date")
 
 const expirationDatePattern = {
-  mask: "MM{/}YY",
+  mask: "MM{ / }YY",
   blocks: {
     YY: {
       mask: IMask.MaskedRange,
@@ -101,7 +101,7 @@ securityCodeMasked.on("accept", () => {
   updateSecurityCode(securityCodeMasked.value)
 })
 
-function updateSecurityCode(code){
+function updateSecurityCode(code) {
   const ccSecutiry = document.querySelector(".cc-security .value")
   ccSecutiry.innerText = code.length === 0 ? "123" : code
 }
@@ -112,7 +112,7 @@ cardNumberMasked.on("accept", () => {
   updateCardNumber(cardNumberMasked.value)
 })
 
-function updateCardNumber(number){
+function updateCardNumber(number) {
   const ccNumber = document.querySelector(".cc-number")
   ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
 }
@@ -121,7 +121,7 @@ expirationDateMasked.on("accept", () => {
   updateExpirationDate(expirationDateMasked.value)
 })
 
-function updateExpirationDate(date){
+function updateExpirationDate(date) {
   const ccExpiration = document.querySelector(".cc-extra .value")
   ccExpiration.innerText = date.length === 0 ? "02/32" : date
 }
