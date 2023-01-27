@@ -94,7 +94,9 @@ const cardHolder = document.querySelector("#card-holder")
 
 cardHolder.addEventListener("input", () => {
   const ccHolder = document.querySelector(".cc-holder .value")
-  ccHolder.innerText = cardHolder.value.length === 0 ? "FULANO DA SILVA" : cardHolder.value
+  ccHolder.innerText = cardHolder.value.length === 0 
+    ? "FULANO DA SILVA" 
+    : cardHolder.value
 })
 
 securityCodeMasked.on("accept", () => {
@@ -103,7 +105,9 @@ securityCodeMasked.on("accept", () => {
 
 function updateSecurityCode(code) {
   const ccSecutiry = document.querySelector(".cc-security .value")
-  ccSecutiry.innerText = code.length === 0 ? "123" : code
+  ccSecutiry.innerText = code.length === 0 
+    ? "123" 
+    : code
 }
 
 cardNumberMasked.on("accept", () => {
@@ -114,7 +118,9 @@ cardNumberMasked.on("accept", () => {
 
 function updateCardNumber(number) {
   const ccNumber = document.querySelector(".cc-number")
-  ccNumber.innerText = number.length === 0 ? "1234 5678 9012 3456" : number
+  ccNumber.innerText = number.length === 0 
+    ? "1234 5678 9012 3456" 
+    : number
 }
 
 expirationDateMasked.on("accept", () => {
@@ -123,5 +129,7 @@ expirationDateMasked.on("accept", () => {
 
 function updateExpirationDate(date) {
   const ccExpiration = document.querySelector(".cc-extra .value")
-  ccExpiration.innerText = date.length === 0 ? "02/32" : date
+  ccExpiration.innerText = date.length === 0 
+    ? "02/32" 
+    : date
 }
